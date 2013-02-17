@@ -1,0 +1,190 @@
+/* google fonts api */
+@import url(http://fonts.googleapis.com/css?family=Jura:600);
+
+/* main */
+html,body {
+  background:url(../img/grad.png) repeat-x bottom;
+  background-color:#242430;
+  margin:0;
+  height:100%;
+  font-family:Jura,sans-serif;
+  overflow:hidden;
+}
+
+.container {
+  height:452px;
+  left:50%;
+  margin-left:-310px;
+  margin-top:-224px;
+  position:absolute;
+  text-align:center;
+  top:50%;
+  width:620px;
+}
+
+.qr {
+  width:424px;
+  height:424px;
+  z-index:400;
+}
+
+.emblem {
+  position:absolute;
+  top:0px;
+  left:98px;
+  width:424px;
+  height:424px;
+  z-index:500;
+}
+
+.menu {
+  position:absolute;
+  margin-left:-236px;
+  bottom:56px;
+  left:50%;
+  z-index:500;
+}
+
+.about {
+  background:url(../img/about.png) no-repeat;
+  cursor:pointer;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:116px;
+  height:28px;
+}
+
+.about:hover {
+  background-position:0 -28px;
+}
+
+.music {
+  background:url(../img/music.png) no-repeat;
+  cursor:pointer;
+  position:absolute;
+  top:0px;
+  left:178px;
+  width:116px;
+  height:28px;
+}
+
+.music:hover {
+  background-position:0 -28px;
+}
+
+.hacks {
+  background:url(../img/hacks.png) no-repeat;
+  cursor:pointer;
+  position:absolute;
+  top:0px;
+  left:356px;
+  width:116px;
+  height:28px;
+}
+
+.hacks:hover {
+  background-position:0 -28px;
+}
+
+.lsep {
+  background:url(../img/seperator.png) no-repeat;
+  position:absolute;
+  top:8px;
+  left:138px;
+  width:20px;
+  height:20px;
+}
+
+.rsep {
+  background:url(../img/seperator.png) no-repeat;
+  position:absolute;
+  top:8px;
+  left:316px;
+  width:20px;
+  height:20px;
+}
+
+.mail {
+  background:url(../img/mail.png) no-repeat;
+  cursor:pointer;
+  bottom:13px;
+  left:16px;
+  width:20px;
+  height:15px;
+  position:absolute;
+  z-index:1000;
+}
+
+.mail:hover {
+  background-position:0 -15px;
+}
+
+.git {
+  background:url(../img/git.png) no-repeat;
+  cursor:pointer;
+  bottom:12px;
+  right:16px;
+  width:43px;
+  height:20px;
+  position:absolute;
+  z-index:1000;
+}
+
+.git:hover {
+  background-position:0 -20px;
+}
+
+/* next emblem */
+.next {
+  cursor:pointer;
+  height:24px;
+  position:absolute;
+  left:162px;
+  top:64px;
+  width:24px;
+  z-index:600;
+}
+
+/* tiny box */
+.tbox {
+  disJura:none;
+  position:absolute;
+  z-index:900;
+}
+
+.tclose {
+  background:url(../img/plus.png) no-repeat;
+  cursor:pointer;
+  height:20px;
+  position:absolute;
+  right:-20px;
+  top:-20px;
+  width:20px;
+}
+
+.tclose:hover {
+  background-position:0 -20px;
+}
+
+.tinner {
+  background:url(../img/bg.png) repeat;
+  padding:10px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px; 
+}
+
+/* tooltip */
+#tooltip {
+  position:absolute;
+  color:#858585;
+  font-size:12px;
+  padding:5px;
+  background:url(../img/bg.png) repeat;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+  z-index:1100;
+}
+
