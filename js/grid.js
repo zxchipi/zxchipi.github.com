@@ -72,7 +72,7 @@ function mail() {
 }
 
 function git() {
-  window.location.href = "https://github.com/zxchipi/zxchipi.github.com";
+  window.location.href = "https://github.com/";
 }
 
 // page box definitions
